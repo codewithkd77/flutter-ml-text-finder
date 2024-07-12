@@ -5,7 +5,7 @@ import 'package:find_text/text_detector.dart';
 List<CameraDescription> cameras = [];
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();  
   cameras = await availableCameras();  
   runApp(const MyApp());
 }
