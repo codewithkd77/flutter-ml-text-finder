@@ -9,7 +9,7 @@ Future<void> main() async {
   cameras = await availableCameras();  
   runApp(const MyApp());
 }
-
+  
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
